@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 
 const Hello = () => {
-  return <p>hello</p>
+  return <p>Hello World</p>
 }
 
 // ReactDOM.render(

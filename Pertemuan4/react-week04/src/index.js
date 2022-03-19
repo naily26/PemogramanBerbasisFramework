@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import BlogPost from "./container/BlogPost/BlogPost"
+import BlogMahasiswa from "./container/BlogPost/BlogMahasiswa"
 
 // ReactDOM.render(
 //   <React.StrictMode>
@@ -15,7 +16,7 @@ import BlogPost from "./container/BlogPost/BlogPost"
 //   document.getElementById('content')
 // );
 
-ReactDOM.render(<BlogPost />, document.getElementById('content'));
+ReactDOM.render(<BlogMahasiswa />, document.getElementById('content'));
 
 
 // If you want to start measuring performance in your app, pass a function

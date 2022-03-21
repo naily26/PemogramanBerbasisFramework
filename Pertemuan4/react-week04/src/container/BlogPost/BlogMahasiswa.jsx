@@ -9,6 +9,7 @@ class BlogMahasiswa extends Component{
         listMahasiswa: [],
         insertMahasiswa: {
             // userId: 1,
+            id: 1,
             NIM: 1,
             nama: "",
             alamat: "", 
@@ -67,7 +68,9 @@ class BlogMahasiswa extends Component{
     render() {
         return(
             <div className="post-artikel">
-                <div className="form pb-2 border-bottom">
+                <div className="form pb-2 border-bottom ">
+                    <div className="input-box">
+                       <center><h4>Form Tambah Data</h4></center> 
                     <div className="form-group row">
                         <label htmlFor="NIM" className="col-sm-2 col-form-label">NIM</label>
                         <div className="col-sm-10 ">
@@ -83,7 +86,7 @@ class BlogMahasiswa extends Component{
                     <div className="form-group row">
                         <label htmlFor="alamat" className="col-sm-2 col-form-label">alamat</label>
                         <div className="col-sm-10">
-                            <input type="text" className="form-control" id="alamat" name="alamat" onChange={this.handleTambahMahasiswa} />
+                            <textarea className="form-control" id="alamat" name="alamat" onChange={this.handleTambahMahasiswa} />
                         </div>
                     </div>
                     <div className="form-group row">
@@ -101,36 +104,45 @@ class BlogMahasiswa extends Component{
                     <div className="form-group row">
                         <label htmlFor="status" className="col-sm-2 col-form-label">status</label>
                         <div className="col-sm-10">
-                            <input type="text" className="form-control" id="status" name="status" onChange={this.handleTambahMahasiswa} />
+                            {/* <input type="text" className="form-control" id="status" name="status" onChange={this.handleTambahMahasiswa} /> */}
+                            <select className="form-control" name="status" id="status" onChange={this.handleTambahArtikel}>
+                                    <option value="Aktif">Aktif</option>
+                                    <option value="Lulus">Lulus</option>
+                                    <option value="Lulus">Cuti</option>
+                            </select>
                         </div>
                     </div>
-                    <button type="submit" className="btn btn-primary" onClick={this.handleTombolSimpan}>Simpan</button>
+                    
+                        
+                        <button type="submit" className="btn btn-primary right"  onClick={this.handleTombolSimpan}>Simpan</button>
+                        
+                    </div>
                 </div>
                 
-                <div class="container mt-3">
-                <h2>Daftar Data Mahasiswa</h2>
-                <p>Berikut adalah daftar mahasiswa yang sudah diinputkan:</p>            
-                <table class="table table-striped">
-                    <thead>
-                    <tr>
-                        <th>Foto</th>
-                        <th>NIM</th>
-                        <th>Nama</th>
-                        <th>Alamat</th>
-                        <th>Hp</th>
-                        <th>Angkatan</th>
-                        <th>Status</th>
-                        <th>Action</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                {
-                    this.state.listMahasiswa.map( mahasiswa => {
-                        return <Post key={mahasiswa.id} NIM={mahasiswa.NIM} nama={mahasiswa.nama} alamat={mahasiswa.alamat} hp={mahasiswa.hp} angkatan={mahasiswa.angkatan} status={mahasiswa.status} idMahasiswa={mahasiswa.id} hapusMahasiswa={this.handleHapusMahasiswa}/>
-                    })
-                }
-                </tbody>
-                </table>
+                <div className="container mt-3">
+                    <h2>Daftar Data Mahasiswa</h2>
+                    <p>Berikut adalah daftar mahasiswa yang sudah diinputkan:</p>            
+                    <table className="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Foto</th>
+                            <th>NIM</th>
+                            <th>Nama</th>
+                            <th>Alamat</th>
+                            <th>Hp</th>
+                            <th>Angkatan</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                    {
+                        this.state.listMahasiswa.map( mahasiswa => {
+                            return <Post key={mahasiswa.id} NIM={mahasiswa.NIM} nama={mahasiswa.nama} alamat={mahasiswa.alamat} hp={mahasiswa.hp} angkatan={mahasiswa.angkatan} status={mahasiswa.status} idMahasiswa={mahasiswa.id} hapusMahasiswa={this.handleHapusMahasiswa}/>
+                        })
+                    }
+                    </tbody>
+                    </table>
                 </div>
             </div>
         )

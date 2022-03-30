@@ -1,0 +1,20 @@
+{
+    "Teen": [
+        {
+            "id": 1,
+            "nama": "Daina Gamis",
+            "gambar": "https://cf.shopee.co.id/file/614697376e667f093f04b7020434bb56"
+        },
+        {
+            "id": 2,
+            "nama": "Dannis Gamis",
+            "gambar": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/2/26/8e6f043e-12c9-4c2c-9452-a5c59526624a.jpg"
+        },
+        {
+            "id": 3,
+            "nama": "Rabbani Gamis",
+            "gambar": "https://cf.shopee.co.id/file/9e566137d395fb7ba7ef5968e2032558"
+        }
+
+    ]
+}

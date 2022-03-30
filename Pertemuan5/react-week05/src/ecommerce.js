@@ -48,8 +48,8 @@ export default function Ecommerce() {
                 
                   <div class="flex-fill">
                       <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                      <a class="navbar-brand text-success logo h1 align-self-center" href="#">
-                  Jassa
+                      <a class="navbar-brand text-success logo h2 align-self-center" href="#">
+                  Nibrass Store
                   </a>
                           <li class="nav-item">
                             <Link class="nav-link" to="/public">Public Page</Link>
@@ -204,12 +204,10 @@ function PublicPage() {
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center">
                         <div class="text-align-left align-self-center">
-                            <h1 class="h1 text-success"><b>Jassa</b> eCommerce</h1>
-                            <h3 class="h2">Lorem Ipsum Lorem Ipsum</h3>
+                            <h1 class="h1 text-success"><b>Nibrass</b> eCommerce</h1>
+                            <br></br>
                             <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Nibras merupakan brand busana muslimah yang selalu mengutamakan kenyamanan bagi pemakai dengan menggunakan kain berkualitas yang nyaman ketika dipakai. Busana muslim Nibras menghadirkan busana yang sesuai dengan akidah dan mode yang syar'i serta dinamis bagi pencinta gamis muslim.
                             </p>
                         </div>
                     </div>
@@ -224,12 +222,10 @@ function PublicPage() {
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center">
                         <div class="text-align-left">
-                            <h1 class="h1">Lorem Ipsum</h1>
-                            <h3 class="h2">Lorem Ipsum Lorem Ipsum</h3>
+                        <h1 class="h1">Nibrass Gamis</h1>
+                            <br></br>
                             <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Nibras merupakan brand busana muslimah yang selalu mengutamakan kenyamanan bagi pemakai dengan menggunakan kain berkualitas yang nyaman ketika dipakai. Busana muslim Nibras menghadirkan busana yang sesuai dengan akidah dan mode yang syar'i serta dinamis bagi pencinta gamis muslim.
                             </p>
                         </div>
                     </div>
@@ -244,12 +240,10 @@ function PublicPage() {
                     </div>
                     <div class="col-lg-6 mb-0 d-flex align-items-center">
                         <div class="text-align-left">
-                            <h1 class="h1">Lorem Ipsum</h1>
-                            <h3 class="h2">Lorem Ipsum Lorem Ipsum </h3>
+                            <h1 class="h1">Nibrass Gamis</h1>
+                            <br></br>
                             <p>
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                              when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                            Nibras merupakan brand busana muslimah yang selalu mengutamakan kenyamanan bagi pemakai dengan menggunakan kain berkualitas yang nyaman ketika dipakai. Busana muslim Nibras menghadirkan busana yang sesuai dengan akidah dan mode yang syar'i serta dinamis bagi pencinta gamis muslim.
                             </p>
                         </div>
                     </div>
@@ -381,9 +375,10 @@ function LoginPage() {
   };
 
   return (
-    <div>
+    <div className="container">
       <p>You must log in to view the page at {from.pathname}</p>
-      <button onClick={login}>Log in</button>
+      <button className="btn btn-success" onClick={login}>Log in</button>
+      <br></br>
     </div>
   );
 }
@@ -501,7 +496,7 @@ const ProductFamily=(props)=> {
                     <i class="text-warning fa fa-star"></i>
                     <i class="text-warning fa fa-star"></i>
                     <i class="text-warning fa fa-star"></i>
-                    <i class="text-muted fa fa-star"></i>
+                    <i class="text-warning fa fa-star"></i>
                     <i class="text-muted fa fa-star"></i>
                 </li>
                 <li class="text-muted text-right">{props.harga}</li>

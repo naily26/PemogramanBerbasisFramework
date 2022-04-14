@@ -52,7 +52,7 @@ export default function Ecommerce() {
                   Nibrass Store
                   </a>
                           <li class="nav-item">
-                            <Link class="nav-link" to="/public">Public Page</Link>
+                            <Link class="nav-link" to="/public">Home</Link>
                           </li>
                           <li class="nav-item">
                             <Link class="nav-link" to="/collection">Collection</Link>

@@ -1,0 +1,31 @@
+{
+  "cart": [
+    {
+      "id": 1649876524480,
+      "nama": "Kulkas Hitachi R-V70PGD7 BBK 550 L 2 Door RV70PGD7",
+      "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/7/3/67236595/67236595_e3b30b2e-a734-4052-a600-ce7838b7225c_1000_1000.jpg",
+      "harga": 11099000,
+      "deskripsi": "Door : 2 Door\nSeries : Big French, Standard\nNet Capacity(L) : Total 550, Freezer 145\n Dimensions(mm) : Width 855, Height 1835",
+      "stok": 30,
+      "productId": 2
+    },
+    {
+      "id": 1649876526538,
+      "nama": "Kulkas Hitachi R-V70PGD7 BBK 550 L 2 Door RV70PGD7",
+      "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/7/3/67236595/67236595_e3b30b2e-a734-4052-a600-ce7838b7225c_1000_1000.jpg",
+      "harga": 11099000,
+      "deskripsi": "Door : 2 Door\nSeries : Big French, Standard\nNet Capacity(L) : Total 550, Freezer 145\n Dimensions(mm) : Width 855, Height 1835",
+      "stok": 30,
+      "productId": 2
+    },
+    {
+      "id": 1649878191544,
+      "nama": "Kulkas ( Refrigerator ) Hitachi R-W70PGD7 Big French Glass RW70PGD7",
+      "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2018/7/9/8291790/8291790_5528fdea-619d-4ba8-860d-c2b11641b87a_1000_1000.jpg",
+      "harga": 15850000,
+      "deskripsi": "Series : Big FrenchStandardGlass Net Capacity( L)\nTotal : 540 Freezer : 144 \nDimensions (mm) Width : 855 Height : 1835 Depth",
+      "stok": 30,
+      "productId": 1
+    }
+  ]
+}

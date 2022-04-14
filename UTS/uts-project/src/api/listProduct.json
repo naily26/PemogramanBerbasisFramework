@@ -1,0 +1,44 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "nama": "Kulkas ( Refrigerator ) Hitachi R-W70PGD7 Big French Glass RW70PGD7",
+            "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2018/7/9/8291790/8291790_5528fdea-619d-4ba8-860d-c2b11641b87a_1000_1000.jpg",
+            "harga": 15850000,
+            "deskripsi": "Series : Big FrenchStandardGlass Net Capacity( L)\nTotal : 540 Freezer : 144 \nDimensions (mm) Width : 855 Height : 1835 Depth",
+            "stok": 30
+          },
+          {
+            "id": 2,
+            "nama": "Kulkas Hitachi R-V70PGD7 BBK 550 L 2 Door RV70PGD7",
+            "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/7/3/67236595/67236595_e3b30b2e-a734-4052-a600-ce7838b7225c_1000_1000.jpg",
+            "harga": 11099000,
+            "deskripsi": "Door : 2 Door\nSeries : Big French, Standard\nNet Capacity(L) : Total 550, Freezer 145\n Dimensions(mm) : Width 855, Height 1835",
+            "stok": 30
+          },
+          {
+            "id": 3,
+            "nama": "Kulkas Hitachi R-WB80PGD5 MIRROR 640 L RWB80PGD5 Bottom Frfeezer",
+            "image": "https://images.tokopedia.net/img/cache/700/product-1/2019/6/24/67236595/67236595_667788d5-1f66-4ad0-a674-b1a2602874e4_380_380.jpg",
+            "harga": 20599000,
+            "deskripsi": "Series : French Bottom Freezer\n Door : 4 Door\nNet Capacity :( L )Total 640, Freezer 174",
+            "stok": 30
+          },
+          {
+            "id": 4,
+            "nama": "Kulkas Hitachi R-VX48PGD9 BBK RVX48PGD9 BBK",
+            "image": "https://images.tokopedia.net/img/cache/700/VqbcmM/2021/8/6/d790ca93-a284-4507-8f8f-0b08ae063c27.jpg",
+            "harga": 6549000,
+            "deskripsi": "Series Stylish Line Series Glass\n Net Capacity (L) Total : 407 Freezer : 109\nDimensions (mm) Width : 680 Height : 1770 Depth",
+            "stok": 30
+          },
+          {
+            "id": 5,
+            "nama": "kulkas Hitachi Rwb80pgd 4door",
+            "image": "https://images.tokopedia.net/img/cache/500-square/product-1/2019/12/9/6204093/6204093_d103923a-42c1-4484-9d41-b670db038d0a_653_653.jpg",
+            "harga": 20000000,
+            "deskripsi": "Series French Bottom Freezer Door 4 Door\nNet Capacity ( L )Total 640 Freezer 174\n Dimensions ( mm )Width 915 Height 1,835 Depth",
+            "stok": 30
+          }
+    ]
+}

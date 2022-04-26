@@ -88,11 +88,11 @@ function Product({
                 </Flex>
 
                 <Flex
-                    justify={'flex-end'}
+                    justify={'flex-center'}
                     mt={6}>
                         
                     <IconButton
-                        colorScheme={'gray'}
+                        colorScheme={'green'}
                         aria-label='Add to Cart'
                         icon={<AddIcon />}
                         onClick={onAddToCart} />

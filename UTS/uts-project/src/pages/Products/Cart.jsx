@@ -77,7 +77,7 @@ function Cart() {
 
     return (
         <TableContainer>
-            <Table variant='simple' size={'md'}>
+            <Table variant='striped' colorScheme='green' size={'md'}>
                 <Thead>
                     <Tr>
                         <Th>Gambar</Th>

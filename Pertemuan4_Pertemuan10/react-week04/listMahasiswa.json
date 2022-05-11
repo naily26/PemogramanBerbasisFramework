@@ -10,15 +10,6 @@
       "status": "aktif"
     },
     {
-      "id": 2,
-      "NIM": 140823453,
-      "nama": "Mahasiswa X",
-      "alamat": "Jl. Menur No. 9 Surabaya",
-      "hp": "081802023523",
-      "angkatan": 2014,
-      "status": "lulus"
-    },
-    {
       "NIM": "234",
       "nama": "Arif S",
       "alamat": "pasuruan",
@@ -26,24 +17,6 @@
       "angkatan": "2022",
       "status": "aktif",
       "id": 1647676515327
-    },
-    {
-      "id": 1647788376731,
-      "NIM": "902432",
-      "nama": "wildan",
-      "alamat": "pasuruan",
-      "hp": "0812345678",
-      "angkatan": "2022",
-      "status": "aktif"
-    },
-    {
-      "id": 1647792028210,
-      "NIM": "12893712",
-      "nama": "Kevin",
-      "alamat": "Solo",
-      "hp": "0813234",
-      "angkatan": "2022",
-      "status": "aktif"
     }
   ]
 }

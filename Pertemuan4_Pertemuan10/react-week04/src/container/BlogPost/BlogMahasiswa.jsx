@@ -46,9 +46,9 @@ class BlogMahasiswa extends Component{
         //     }
         //     )
         API.deleteBlog(data)
-            .then((response) => {
-                this.ambilDataDariServerAPI();
-            });
+        .then((response) => {
+            this.ambilDataDariServerAPI();
+        });
     }
 
     handleTambahMahasiswa = (event) => {
